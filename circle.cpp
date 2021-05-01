@@ -1,24 +1,23 @@
 #include <iostream>
 using namespace std;
 
-//This program prompts user to enter circle raduis
-//Then the circle area is displayed
 
 int main()
 {
     double radius;
-    double area;
+    double circumference;
     
     //Prompt the user to enter a value for radius
     cout << "Enter radius ";
     cin >> radius;
     
     //Calculate the area of the circle
-    area = 3.14 * radius * radius;
+    circumference = 2.0 * 3.14 * radius;
     
     //Add code to read user input and store in variable radius
-    cout << "The area of a circle is: " << area << endl;
+    cout << "The circumference of a circle is: " << circumference << endl;
     
     return 0;
     
 }
+
